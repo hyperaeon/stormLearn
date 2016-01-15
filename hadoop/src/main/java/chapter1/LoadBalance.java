@@ -10,7 +10,7 @@ public class LoadBalance {
 	private static Map<String,Integer> serverWeightMap = new HashMap<String, Integer>();
 	
 	private static Integer pos = 0;
-	
+	 
 	static {
 
 		serverWeightMap.put("192.168.1.100", 1);

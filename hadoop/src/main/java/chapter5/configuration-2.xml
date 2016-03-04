@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<configuration>
+	<property>
+		<name>size</name>
+		<value>12</value>
+		<description>Size</description>
+	</property>
+	
+	<property>
+		<name>weight</name>
+		<value>heavy</value>
+		<final>true</final>
+		<description>Weight</description>
+	</property>
+	
+</configuration>

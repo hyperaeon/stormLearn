@@ -3,7 +3,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ne.learn</groupId>
 	<artifactId>hadoop</artifactId>
-	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hadoop Maven Webapp</name>
 	<url>http://maven.apache.org</url>
@@ -16,14 +15,29 @@
 			<version>1.2.1</version>
 		</dependency>
 
+		<!-- hive -->
 		<dependency>
 			<groupId>org.apache.hive</groupId>
 			<artifactId>hive-exec</artifactId>
 			<version>1.2.1</version>
 		</dependency>
 
+		<!-- pig -->
+	<dependency>
+		<groupId>org.apache.pig</groupId>
+		<artifactId>pig</artifactId>
+		<version>0.9.1</version>
+	</dependency>
+		
+		<!-- HBase -->
+		<dependency>
+			<groupId>org.apache.hbase</groupId>
+			<artifactId>hbase</artifactId>
+			<version>0.94.12</version>
+		</dependency>
 
 
+				
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

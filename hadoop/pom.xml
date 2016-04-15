@@ -59,12 +59,12 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<dependency>
-			<groupId>org.apache.mrunit</groupId>
-			<artifactId>mrunit</artifactId>
-			<version>0.9.0-incubating</version>
-			<scope>test</scope>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.mrunit</groupId> -->
+<!-- 			<artifactId>mrunit</artifactId> -->
+<!-- 			<version>0.9.0-incubating</version> -->
+<!-- 			<scope>test</scope> -->
+<!-- 		</dependency> -->
 		
 		<!--  Hadoop test artifacts for running mini clusters-->
 		<dependency>
